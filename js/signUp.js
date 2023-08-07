@@ -8,6 +8,8 @@ if (localStorage.getItem("Users")) {
   userContainer = JSON.parse(localStorage.getItem("Users"));
 }
 
+
+
 function signUp() {
   let userData = {
     userName: signUpNameInput.value,
