@@ -1,0 +1,26 @@
+:root {
+  --bs-body-bg: none;
+  --bs-body-color:white;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+body {
+  background: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.item {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.item h1 {
+  color: #17a2b8;
+}
+
+.form-control {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
